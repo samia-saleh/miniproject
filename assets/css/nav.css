@@ -1,0 +1,73 @@
+nav{
+    box-shadow: 1px 1px 5px rgb(202, 102, 202);
+    padding: 40px 5px;
+    position: static;
+}
+nav>ul{
+    list-style: none;
+}
+nav>ul>li{
+    display: inline;
+    margin: 20px;
+    padding: 5px;
+}
+nav>ul>li>img{
+    height: 30px;
+    width: 30px;
+    /* margin-bottom: -10px; */
+    
+}
+
+nav>ul>li>label{
+   
+    font-size: 20px;
+    color: rgb(83, 45, 83);
+}
+nav>ul>li:nth-of-type(2):hover, nav>ul>li:nth-of-type(3):hover, nav>ul>li:nth-of-type(4):hover{
+   
+   font-size: 20px;
+   color: white;
+   background-color: rgb(124, 71, 124);
+   border-radius: 20px;
+   
+}
+nav>ul>li:nth-of-type(2)>label:hover,nav>ul>li:nth-of-type(3)>label:hover,nav>ul>li:nth-of-type(4)>label:hover{
+
+   color: white;
+ 
+}
+nav>ul>li>div>div , nav>ul>li>div{
+    display: inline;
+}
+nav>ul>li:last-of-type{
+    /* margin-left: 130px; */
+}
+nav>ul>li:first-of-type{
+    margin-right: 750px;
+    
+}
+
+nav>ul>li>div>div>i{
+    color: rgb(202, 102, 202);
+    padding: 8px;
+}
+nav>ul>li>div>div>input{
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 200px;
+}
+nav>ul>li>div>i{
+    background-color: rgb(202, 102, 202);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+nav>ul>li>div>div{
+     border: 1px solid;
+    border-color: rgb(83, 45, 83);
+    /* background-color: rgb(202, 102, 202); */
+    padding: 8px 8px 8px 0px; 
+}
